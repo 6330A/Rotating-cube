@@ -17,13 +17,13 @@ $$
 \begin{bmatrix}
   x' \\
   y' \\
-  z' \\
+  z' 
 \end{bmatrix}
 = 
 \begin{bmatrix}
   1 & 0 & 0 \\
   0 & cos(\theta_x) & sin(\theta_x)\\
-  0 & -sin(\theta_x) & cos(\theta_x)\\
+  0 & -sin(\theta_x) & cos(\theta_x)
 \end{bmatrix}
 \begin{bmatrix}
   cos(\theta_y) & 0 & -sin(\theta_y) \\
@@ -33,12 +33,12 @@ $$
 \begin{bmatrix}
   cos(\theta_z) & sin(\theta_z) & 0 \\
   -sin(\theta_z) & cos(\theta_z) & 0\\
-  0 & 0 & 1)\\
+  0 & 0 & 1)
 \end{bmatrix}
 \begin{bmatrix}
   x \\
   y \\
-  z \\
+  z 
 \end{bmatrix}
 $$
 
@@ -58,21 +58,22 @@ points = (rotation_x @ rotation_y @ rotation_z @ points.T).T
 $$
 \begin{bmatrix}
   x \\
-  y \\
+  y 
 \end{bmatrix}
 =
 \begin{bmatrix}
   -0.5 & 1 & 0 \\
-  -0.5 & 0 & 1 \\
+  -0.5 & 0 & 1 
 \end{bmatrix}
 \begin{bmatrix}
   x \\
   y \\
-  z \\
+  z 
 \end{bmatrix}
 +
 \begin{bmatrix}
   offset \\
-  offset \\
+  offset 
 \end{bmatrix}
 $$
+![](H:\Rotating-cube\cube.gif)

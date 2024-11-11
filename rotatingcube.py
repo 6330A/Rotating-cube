@@ -11,10 +11,10 @@ root.geometry(f"{w}x{h}+800+300")
 canvas = tk.Canvas(root, width=w, height=h, bg="white")
 canvas.pack()
 
-length = w // 4
+length = w // 8
 offset = w // 2
 step = 1 / (8 * math.pi)
-vx, vy, vz = 1 * step, 1 * step, 1 * step
+vx, vy, vz = 1 * step, 2 * step, 3 * step
 rotation_interval = 30
 points = np.array([[1, 1, 1], [-1, 1, 1], [1, 1, -1], [-1, 1, -1], [1, -1, -1], [-1, -1, -1], [1, -1, 1], [-1, -1, 1]])
 points = points * length
@@ -44,7 +44,7 @@ def repeat_task():
 
     for i, j in lines:
         x1, y1 = p_2d[i]
-        x2, y2 = p_2d[j]  # 连接 0->2->4->6 -> 首尾相连
+        x2, y2 = p_2d[j]
         canvas.create_line(x1, y1, x2, y2, fill="black")
 
     root.after(rotation_interval, repeat_task)
