@@ -67,11 +67,12 @@ $$
   x \\
   y \\
   z 
-\end{bmatrix}
-+
+\end{bmatrix}+
 \begin{bmatrix}
   offset \\
   offset 
 \end{bmatrix}
 $$
+---
+
 ![](./cube.gif)
