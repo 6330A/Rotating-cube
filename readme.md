@@ -54,6 +54,7 @@ points = (rotation_x @ rotation_y @ rotation_z @ points.T).T
 ```
 
 映射为二维平面，三维变二维再加上偏移量移动到画布中心
+
 $$
 \begin{bmatrix}
   x \\
@@ -74,6 +75,5 @@ $$
 \end{bmatrix}
 $$
 
----
 
 ![](./cube.gif)
