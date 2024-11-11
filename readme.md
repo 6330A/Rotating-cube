@@ -75,7 +75,4 @@ $$
 \end{bmatrix}
 $$
 
-
-<p align="center">
-  ![](./cube.gif)
-</p>
+![](./cube.gif)
