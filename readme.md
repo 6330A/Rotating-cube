@@ -76,6 +76,6 @@ $$
 $$
 
 
-<div align="center">
+<p align="center">
   ![](./cube.gif)
-</div>
+</p>
