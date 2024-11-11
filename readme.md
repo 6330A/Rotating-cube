@@ -18,8 +18,7 @@ $$
   x' \\
   y' \\
   z' 
-\end{bmatrix}
-= 
+\end{bmatrix}= 
 \begin{bmatrix}
   1 & 0 & 0 \\
   0 & cos(\theta_x) & sin(\theta_x)\\
@@ -59,8 +58,7 @@ $$
 \begin{bmatrix}
   x \\
   y 
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
   -0.5 & 1 & 0 \\
   -0.5 & 0 & 1 
@@ -76,4 +74,4 @@ $$
   offset 
 \end{bmatrix}
 $$
-![](H:\Rotating-cube\cube.gif)
+![](./cube.gif)
